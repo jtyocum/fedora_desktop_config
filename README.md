@@ -35,7 +35,7 @@ sudo dnf install python3-devel
 mkdir -p ~/.venv/
 python3 -m venv ~/.venv/py3dev
 source .venv/py3dev/bin/activate
-pip install python-language-server black
+pip install python-language-server black pyflakes
 
 ## C++ Dev Environment
 
