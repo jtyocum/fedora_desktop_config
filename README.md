@@ -92,3 +92,16 @@ sudo ./MPLABX-v5.40-linux-installer.sh
 
 sudo dnf install syncthing
 systemctl --user enable --now syncthing.service
+
+## rclone
+
+sudo dnf install rclone
+
+https://rclone.org/b2/
+https://rclone.org/crypt/
+
+## IPFS Desktop
+
+sudo dnf install gnome-shell-extension-appindicator
+gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
+sudo dnf install ipfs-desktop-0.13.2-linux-x86_64.rpm
