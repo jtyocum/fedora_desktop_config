@@ -105,3 +105,6 @@ https://rclone.org/crypt/
 sudo dnf install gnome-shell-extension-appindicator
 gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
 sudo dnf install ipfs-desktop-0.13.2-linux-x86_64.rpm
+
+## Pidgin
+sudo dnf install pidgin purple-facebook purple-telegram install pidgin-indicator
