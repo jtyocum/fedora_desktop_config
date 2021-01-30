@@ -108,3 +108,6 @@ sudo dnf install ipfs-desktop-0.13.2-linux-x86_64.rpm
 
 ## Pidgin
 sudo dnf install pidgin purple-facebook purple-telegram install pidgin-indicator
+
+## Bluetooth Audio Codecs
+sudo dnf install pulseaudio-module-bluetooth-freeworld --allowerasing
