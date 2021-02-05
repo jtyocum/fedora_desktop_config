@@ -94,3 +94,8 @@ sudo dnf install pidgin purple-facebook purple-telegram install pidgin-indicator
 
 ## Bluetooth Audio Codecs
 sudo dnf install pulseaudio-module-bluetooth-freeworld --allowerasing
+
+## R / R Studio
+
+sudo dnf install R
+sudo dnf install ./rstudio-1.4.1103-x86_64.rpm
