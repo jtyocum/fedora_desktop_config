@@ -37,15 +37,6 @@ python3 -m venv ~/.venv/py3dev
 source .venv/py3dev/bin/activate
 pip install python-language-server black pyflakes
 
-## C++ Dev Environment
-
-sudo dnf install ccls boost-devel cmake make gtkmm30-devel glade
-cp .clang-format ~/
-
-## unixODBC
-
-sudo dnf install unixODBC-devel sqliteodbc
-
 ## emacs
 
 sudo dnf install emacs
@@ -57,14 +48,6 @@ M-x package-install-selected-packages
 ## gitg
 
 sudo dnf install gitg
-
-## Ghidra
-
-sudo dnf install java-11-openjdk-devel
-unzip ghidra_9.1.2_PUBLIC_20200212.zip
-sudo mv ghidra_9.1.2_PUBLIC /opt/
-sudo chown -R root:root ghidra_9.1.2_PUBLIC/
-sudo ln -s /opt/ghidra_9.1.2_PUBLIC/ghidraRun ghidra
 
 ## libvirt-client
 
