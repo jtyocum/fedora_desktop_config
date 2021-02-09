@@ -97,7 +97,7 @@ sudo dnf install pulseaudio-module-bluetooth-freeworld --allowerasing
 
 ## R / R Studio
 
-sudo dnf install R rstudio-desktop
+sudo dnf install R rstudio-desktop libcurl-devel openssl-devel
 
 ## ClamAV
 
