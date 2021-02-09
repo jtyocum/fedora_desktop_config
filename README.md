@@ -97,5 +97,4 @@ sudo dnf install pulseaudio-module-bluetooth-freeworld --allowerasing
 
 ## R / R Studio
 
-sudo dnf install R
-sudo dnf install ./rstudio-1.4.1103-x86_64.rpm
+sudo dnf install R rstudio-desktop
