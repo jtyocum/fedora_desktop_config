@@ -102,3 +102,6 @@ sudo dnf install R rstudio-desktop
 ## ClamAV
 
 sudo dnf install clamav clamav-update
+sudo systemctl enable clamav-freshclam
+sudo systemctl start clamav-freshclam
+
