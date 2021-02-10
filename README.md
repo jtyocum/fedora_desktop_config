@@ -105,3 +105,6 @@ sudo dnf install clamav clamav-update
 sudo systemctl enable clamav-freshclam
 sudo systemctl start clamav-freshclam
 
+## 7-Zip
+
+sudo dnf install p7zip p7zip-plugins
