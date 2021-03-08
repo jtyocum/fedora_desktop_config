@@ -118,3 +118,11 @@ M-x package-install-selected-packages
 ## 7-Zip
 
 	sudo dnf install p7zip p7zip-plugins
+
+## KiCad
+
+	sudo dnf install kicad
+	cd Documents/Electronics/
+	mkdir Kicad_Library
+	cd Kicad_Library/
+	git clone https://github.com/Digi-Key/digikey-kicad-library.git
