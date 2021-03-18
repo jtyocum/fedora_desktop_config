@@ -49,9 +49,6 @@ In Firefox, about:config....
 M-x package-refresh-contents
 M-x package-install-selected-packages
 
-## gitg
-
-	sudo dnf install gitg
 
 ## libvirt-client
 
