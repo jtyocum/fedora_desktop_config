@@ -21,6 +21,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+; Dark Background (Terminal)
+(unless (display-graphic-p)
+    (setq frame-background-mode 'dark))
+
 ; CUA
 (cua-mode t)
 
