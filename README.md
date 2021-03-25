@@ -123,3 +123,7 @@ M-x package-install-selected-packages
 	mkdir Kicad_Library
 	cd Kicad_Library/
 	git clone https://github.com/Digi-Key/digikey-kicad-library.git
+
+## Zotero
+
+        flatpak install flathub org.zotero.Zotero
