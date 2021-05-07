@@ -86,21 +86,9 @@ M-x package-install-selected-packages
 * https://rclone.org/b2/
 * https://rclone.org/crypt/
 
-## IPFS Desktop
-
-	sudo dnf install gnome-shell-extension-appindicator
-	gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
-	sudo dnf install ipfs-desktop-0.13.2-linux-x86_64.rpm
-
 ## Pidgin
 
 	sudo dnf install pidgin purple-facebook purple-telegram install pidgin-indicator
-
-## Bluetooth Audio Codecs
-
-*NOTE:* This depends on RPMfusion Free repo being installed (installed as part of Firefox hardware acceleration).
-
-	sudo dnf install pulseaudio-module-bluetooth-freeworld --allowerasing
 
 ## R / R Studio
 
