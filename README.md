@@ -86,10 +86,6 @@ M-x package-install-selected-packages
 * https://rclone.org/b2/
 * https://rclone.org/crypt/
 
-## Pidgin
-
-	sudo dnf install pidgin purple-facebook purple-telegram install pidgin-indicator
-
 ## R / R Studio
 
 	sudo dnf install R rstudio-desktop libcurl-devel openssl-devel
