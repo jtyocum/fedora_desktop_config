@@ -110,4 +110,9 @@ M-x package-install-selected-packages
 
 ## Zotero
 
-        flatpak install flathub org.zotero.Zotero
+    flatpak install flathub org.zotero.Zotero
+
+## AppIndicator
+
+    sudo dnf install gnome-shell-extension-appindicator
+    gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
